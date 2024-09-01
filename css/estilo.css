@@ -1,0 +1,207 @@
+:root{
+    --cor-fundo:rgb(5, 8, 6);
+    --cor-hover:rgb(89, 158, 145);
+    --cor-primaria:rgb(231,241,236);
+}
+
+
+.dp-menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.dp-menu ul{
+    background-color: var(--cor-fundo);
+    position: relative;
+    border-radius: 10px;
+    margin-top:auto;
+}
+
+
+.dp-menu ul li {
+   display: inline;
+   position: relative;
+}
+
+
+.dp-menu ul li a{
+ color: var(--cor-primaria);
+ text-decoration: none;
+ display: inline-block;
+ padding: 15px;
+ 
+}
+
+
+.dp-menu ul li a:hover{
+ background-color: var(--cor-hover);
+ 
+}
+/* ....................................sub-menu...................................... */
+
+
+.dp-menu ul ul{
+    display: none;
+    left: 0px;
+    position: absolute;
+    
+}
+
+
+.dp-menu ul li:hover ul{
+    display: block;
+     
+}
+
+
+.dp-menu ul ul{
+
+    width: 150px;
+}
+
+
+.dp-menu ul ul li a{
+    display: block;
+    
+    
+}
+
+
+
+  /* corpo da pargina... */
+body{
+    
+   background-image: url(../img/stock-photo-colored-pencils-modern-laptop-white.jpeg);
+   background-size: cover ;
+    background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   height: 500px;
+}
+/* corpo da pargina... */
+
+
+/* lista de usuarios */
+.titulo h1{
+    color:rgb(7, 6, 6);
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: underline;
+}
+
+.tabela{
+    border: solid 1px;
+    background-color: rgb(253, 252, 249);
+    width: 1000px;
+    border-color: rgb(3, 7, 1);
+    margin: auto;
+   
+}
+th{
+    height: 30px;
+    width: 150px;
+}
+td{
+    height: 30px;
+    width: 150px;
+}
+
+.menu-id th{
+    background-color: rgb(89, 158, 145);
+    width: 900px;
+}
+/* lista de usuarios */
+
+
+
+/* altera-formulario */
+.alt-formu{
+    border: solid 1px;
+    background-color: rgb(89, 158, 145);
+    width: 250px;
+    height: 510px;
+   margin-left: 35rem;
+   border-radius: 8px;
+}
+
+.alt-formu label{
+    display: inline-block;
+   margin-top: 18px;
+   
+}
+.alt-formu input{
+    display: block;
+    border-radius: 6px;
+    border: solid 1px;
+    color: black;
+    
+}
+
+.btn-button{
+    display: flex;
+}
+
+.alt-formu form{
+    margin-left: 40px;
+
+}
+
+
+.alt-formu button{
+   margin-left: 150px;
+   margin-top: 30px;
+   border-radius: 8px;
+}
+
+
+/* titulo do formulario */
+.form-titulo{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.alt-formu button:hover{
+    background-color: rgb(8, 11, 182);
+
+}
+
+
+
+.table-atualizar{
+    border: solid 1px;
+    color: black;
+    width: 320px;
+    background-color: rgb(89, 158, 145);
+    margin-left: 12rem;
+}
+.brt-atualizar input:hover{
+    background-color: green;
+    border-radius: 10px;
+
+
+}
+
+.brt-atualizar input{
+    border-radius: 10px;
+    margin-left: 6rem;
+   border: solid 1px;
+   color: black;
+   width: 100px;
+   height: 20px;
+}
+    
+    
+
+ .titulo-atualizar{
+
+    color:rgb(7, 6, 6);
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+     margin-left: 5rem;
+}
+
+
+
